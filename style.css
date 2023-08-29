@@ -4,7 +4,12 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
- /* header and top banner styles */
+
+.text-primary {
+    color: #E55473;
+}
+
+/* header and top banner styles */
 header {
     background-color: #E554731A;
 }
@@ -45,4 +50,32 @@ header {
 .top-banner-img {
     padding-top: 50px;
 
+}
+
+/* offers section style  */
+.offers {
+    background-color: #E554730D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 130px 0;
+}
+.special-discount{
+    width: 35%;
+}
+.discount-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-info {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #27272799;
+}
+.discount-img{
+    padding: 100px 0;
 }
