@@ -9,6 +9,10 @@
     color: #E55473;
 }
 
+.text-secondary {
+    color: #FFFFFF;
+}
+
 /* header and top banner styles */
 header {
     background-color: #E554731A;
@@ -141,4 +145,28 @@ header {
     margin-right: 10px;
     padding: 25px 10px;
     width: 35%;
+}
+
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 128px 0px;
+}
+
+footer h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: #FFFFFFE5;
+    padding: 24px 0 32px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-info {
+    color: #FFFFFF66;
+    font-size: 16px;
+    font-weight: 400;
 }
