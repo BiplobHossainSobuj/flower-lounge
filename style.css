@@ -89,17 +89,19 @@ header {
     border-radius: 300px 300px 0 0;
     padding: 110px 70px 0 70px;
 }
+
 #pink-flower-second {
     background-color: #0597A026;
     border-radius: 300px 300px 0 0;
     padding: 120px 40px 45px 40px;
-    
+
 }
+
 #pink-flower-third {
     background-color: #0597A026;
     border-radius: 300px 300px 0 0;
     padding: 65px 75px 0px 75px;
-    
+
 }
 
 .flowers-container p {
@@ -111,13 +113,49 @@ header {
 }
 
 
-/* Our Collection  */
-.bouqets{
-    background-image: url(images/valentines_bouquet.jpg);
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 150px;
+/* Our Packages  */
+.collections-container {
+    text-align: center;
 }
+
+.collection-info {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.collection-description {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 18px 0;
+}
+
+.collections {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.collection{
+    justify-content: center;
+}
+
+.collections img {
+    height: 350px;
+    width: 330px;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+#video-container{
+    margin-top: 215px;
+    height: 600px;
+    width: 580px;
+}
+#collection-video{
+    width: 100%;
+}
+
+
 
 
 /* serivice container style */
