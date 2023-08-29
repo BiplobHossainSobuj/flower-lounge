@@ -55,22 +55,68 @@ header {
     padding-top: 50px;
 
 }
+
 /* featured flower conatiner style  */
 
-.featured-flower-container{
+.featured-flower-container {
     text-align: center;
-    margin-top: 180px;
+    margin: 150px 0;
 }
 
-.flowers-container{
+.feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-description {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #27272799;
+}
+
+.flowers-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+}
+
+#pink-flower-first {
+    background-color: #A7216226;
+    border-radius: 300px 300px 0 0;
+    padding: 110px 70px 0 70px;
+}
+#pink-flower-second {
+    background-color: #0597A026;
+    border-radius: 300px 300px 0 0;
+    padding: 120px 40px 45px 40px;
+    
+}
+#pink-flower-third {
+    background-color: #0597A026;
+    border-radius: 300px 300px 0 0;
+    padding: 65px 75px 0px 75px;
+    
+}
+
+.flowers-container p {
+    text-decoration: underline;
+    padding-top: 20px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 
+/* Booking for Special Events  */
+
+
+
 /* serivice container style */
-.services{
+.services {
     display: flex;
     justify-content: center;
     background-color: #2727270D;
@@ -79,7 +125,8 @@ header {
     margin-right: 240px;
     border-radius: 10px;
 }
-.service{
+
+.service {
     text-align: center;
     padding: 90px;
 }
