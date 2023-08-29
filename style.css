@@ -111,8 +111,13 @@ header {
 }
 
 
-/* Booking for Special Events  */
-
+/* Our Collection  */
+.bouqets{
+    background-image: url(images/valentines_bouquet.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 150px;
+}
 
 
 /* serivice container style */
