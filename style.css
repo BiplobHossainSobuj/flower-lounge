@@ -56,6 +56,23 @@ header {
 
 }
 
+/* serivice container style */
+.services{
+    display: flex;
+    justify-content: center;
+    background-color: #2727270D;
+    /* padding: 90px 0;
+    gap: 20px; */
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+    border-radius: 10px;
+}
+.service{
+    text-align: center;
+    padding: 90px;
+}
+
 /* offers section style  */
 .offers {
     background-color: #E554730D;
