@@ -61,9 +61,11 @@ header {
     gap: 60px;
     margin: 130px 0;
 }
-.special-discount{
+
+.special-discount {
     width: 35%;
 }
+
 .discount-title {
     font-size: 40px;
     font-weight: 800;
@@ -76,6 +78,67 @@ header {
     font-weight: 400;
     color: #27272799;
 }
-.discount-img{
+
+.discount-img {
     padding: 100px 0;
+}
+
+/* socila media container styles */
+
+.social-media-container {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.socila-media-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-media-description {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 0 50px 0;
+    color: #27272799;
+}
+
+.social-media-container img {
+    margin: 0 10px;
+}
+
+/* Subcription section style */
+.subscription-container {
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 120px;
+}
+
+.subscription-info {
+    text-align: center;
+    padding: 120px 280px;
+}
+
+.subscription-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subcription-discount {
+    padding: 20px 0 35px 0;
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subscription-container input {
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 10px;
+    padding: 25px 10px;
+    width: 35%;
 }
